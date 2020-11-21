@@ -10,6 +10,8 @@ package ca.sheridancollege.project;
  * game. Students wishing to add to the code should remember to add themselves as a modifier.
  *
  * @author dancye
+ * @author Tejus Singh Gill
+ * date 20 Nov,2020
  */
 public  class Card {
      

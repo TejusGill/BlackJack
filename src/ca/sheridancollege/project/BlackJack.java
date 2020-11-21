@@ -8,7 +8,8 @@ package ca.sheridancollege.project;
 import java.util.Scanner;
 
 /**
- *
+ *@author Tejus Singh Gill
+ * date 20 Nov,2020
  * @author gillt
  */
 public class BlackJack {

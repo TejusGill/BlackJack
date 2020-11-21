@@ -6,7 +6,8 @@
 package ca.sheridancollege.project;
 
 /**
- *
+ *@author  Tejus Singh
+ * date 20 Nov,2020
  * @author gillt
  */
 public enum Face {
