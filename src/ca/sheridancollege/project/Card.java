@@ -11,15 +11,32 @@ package ca.sheridancollege.project;
  *
  * @author dancye
  */
-public abstract class Card {
+public  class Card {
+     
     //default modifier for child classes
+    private final Face faces;
+    private final Suit suits;
 
+    public Card(Face faces, Suit suits) {
+        this.faces = faces;
+        this.suits = suits;
+    }
+
+    public Face getFaces() {
+        return faces;
+    }
+
+    public Suit getSuits() {
+        return suits;
+    }
     /**
      * Students should implement this method for their specific children classes
      *
      * @return a String representation of a card. Could be an UNO card, a regular playing card etc.
      */
     @Override
-    public abstract String toString();
+    public String toString(){
+          return faces + " of " + suits;
+    }
 
 }
