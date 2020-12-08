@@ -27,7 +27,7 @@ public class Player {
     }
 
     public String getNickname() {
-        return nickname;
+       return nickname;
     }
 
     public void addCard(Card card) {
@@ -56,5 +56,19 @@ public class Player {
             }
         }
         return sb.toString();
+    }
+
+/**
+ * a method check for valid name
+ * @return true if name is valid
+ * @return false if name is invalid
+ */
+ public static boolean getName(String name) {
+        if(name.equals(" ") || name.length() < 3){
+           return false;
+        }
+        else 
+            System.out.println("Valid nickname");
+        return true;
     }
 }
